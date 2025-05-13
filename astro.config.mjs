@@ -12,7 +12,7 @@ export default defineConfig({
   },
   integrations: [
     react(),
-    sitemap(),   // ✅ Add sitemap here
+    sitemap(),   // 
   ],
   adapter: netlify(),
 });
