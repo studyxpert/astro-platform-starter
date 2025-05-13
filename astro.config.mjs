@@ -2,11 +2,11 @@ import { defineConfig } from 'astro/config';
 import netlify from '@astrojs/netlify';
 import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
-import sitemap from '@astrojs/sitemap'; // ✅ Import sitemap integration
+import sitemap from '@astrojs/sitemap'; //
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://study-xpert.in', // ✅ Required for sitemap
+  site: 'https://study-xpert.in', // 
   vite: {
     plugins: [tailwindcss()]
   },
