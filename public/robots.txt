@@ -1,3 +1,7 @@
 User-agent: *
+Disallow: /edge/not-australia/
+Disallow: /blobs/
+Disallow: /image-cdn/
+Disallow: /revalidation/
 Allow: /
-Sitemap: https://study-xpert.in/sitemap.xml
+Sitemap: https://study-xpert.in/sitemap-index.xml
