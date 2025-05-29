@@ -9,16 +9,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  integrations: [
-    react(),
-    sitemap({
-      exclude: [
-        '/edge/not-australia',
-        '/blobs',
-        '/image-cdn',
-        '/revalidation'
-      ]
-    })
-  ],
+  integrations: [react(), sitemap()],
   adapter: netlify()
 });
